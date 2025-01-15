@@ -57,6 +57,15 @@ Columns are project name, open source URL, primary programing language and stars
 - anahita, https://github.com/anahitasocial/anahita, php, 441
 - minds, https://github.com/Minds, php, 200
 
+Social media servers:
+- https://pixelfed.org/
+- https://joinpeertube.org/, (source?)
+- https://join-lemmy.org, https://github.com/LemmyNet
+- https://element.io/, https://github.com/element-hq
+- https://getaether.net/, https://github.com/aethereans/aether-app (like slack/discord)
+- https://diasporafoundation.org/, https://github.com/diaspora/
+
+
 ## Distributed Social Media
 
 My "engineer sense" says some form of federation is the best approach for a long-term solution, but it adds another layer of complexity and research: Which underlying framework?
@@ -64,3 +73,15 @@ My "engineer sense" says some form of federation is the best approach for a long
 https://gitlab.com/bluesky-community1/decentralized-ecosystem#ecosystem-overview
 
 There is no easy answer, and though ActivityPub is most widely deployed (and standardized), it is also the most limiting when it comes to identity and moderation in the distributed arena. (see https://atproto.com/guides/faq#why-not-use-activitypub). I'm using the above ecosystem overview doc to figure out which will be most applicable to our needs.
+
+
+Architecture models:
+- centralized: a main server that hosts all data. easy to find. easy to maintain. single point of failure
+- distributed: regional servers, cross-region sync and backup
+- federated: everyone runs their own server. you run your own or select one.
+
+Deployment Options:
+- self-hosted: techie volunteer has access to reliable hardware, network and power, and can host the services in a professional manner.
+- cloud-hosted: volunteers run open source software in the cloud, and manage all data.
+- hosted: A specific company manages the account and all the data.
+
