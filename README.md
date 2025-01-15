@@ -57,3 +57,10 @@ Columns are project name, open source URL, primary programing language and stars
 - anahita, https://github.com/anahitasocial/anahita, php, 441
 - minds, https://github.com/Minds, php, 200
 
+## Distributed Social Media
+
+My "engineer sense" says some form of federation is the best approach for a long-term solution, but it adds another layer of complexity and research: Which underlying framework?
+
+https://gitlab.com/bluesky-community1/decentralized-ecosystem#ecosystem-overview
+
+There is no easy answer, and though ActivityPub is most widely deployed (and standardized), it is also the most limiting when it comes to identity and moderation in the distributed arena. (see https://atproto.com/guides/faq#why-not-use-activitypub). I'm using the above ecosystem overview doc to figure out which will be most applicable to our needs.
