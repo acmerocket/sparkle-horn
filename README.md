@@ -85,3 +85,14 @@ Deployment Options:
 - cloud-hosted: volunteers run open source software in the cloud, and manage all data.
 - hosted: A specific company manages the account and all the data.
 
+
+## Identity
+
+In most social media systems, identity is managed and owned by the "server". In centralized and distributed models, that is all encapsulated behind the "dot com". In a federated system, that ID is managed by your local federated server. Perhaps you run your own for just you. In the Mastodon network, it's easy to have multiple IDs, one from each server you log into. There's no easy or standard way to associate them.
+
+The Decentralized Identifier (DID) spec (https://www.w3.org/TR/did-core/) attempts to decouple the host server from user/account ID by providing IDs and authorizition information together, apart from the host.
+> DIDs are URIs that associate a DID subject with a DID document allowing trustable interactions associated with that subject.
+
+For end-users, supporting DIDs will allow them server-independant identity. Not "Sparkle Horn on FB" or "Sparkle Horn on Twitter" or "Sparkle Horn at gmail", but "Sparkle Horn on any system that supports the distributed-ID specification." For server moderators, it also means being able to ban "Sparkle Horn on any system that supports the distributed-ID specification."
+
+Noting that for this reason, basing a platform on the [AT protocol](https://atproto.com) is probably the most flexible and forward looking. This is the same protocol BlueSky uses, and will support direct interoperability.
