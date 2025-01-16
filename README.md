@@ -96,3 +96,10 @@ The Decentralized Identifier (DID) spec (https://www.w3.org/TR/did-core/) attemp
 For end-users, supporting DIDs will allow them server-independant identity. Not "Sparkle Horn on FB" or "Sparkle Horn on Twitter" or "Sparkle Horn at gmail", but "Sparkle Horn on any system that supports the distributed-ID specification." For server moderators, it also means being able to ban "Sparkle Horn on any system that supports the distributed-ID specification."
 
 Noting that for this reason, basing a platform on the [AT protocol](https://atproto.com) is probably the most flexible and forward looking. This is the same protocol BlueSky uses, and will support direct interoperability.
+
+
+## User Experience
+
+The next question to consider: What is the user's experience of this secure and flexible platform? The simple answer is: None. The goal is for the user experience to be based on the clients they have access to.
+
+First stop: https://docs.bsky.app/showcase
