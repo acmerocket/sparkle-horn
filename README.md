@@ -36,6 +36,63 @@ Public sections, account holder only sections, and then members-only sections wi
 
 I definitely think I want it to be invite-only with vetting as we get it off the ground, just to make sure the people joining are actual performers.
 
+## Some Demos & First Impressions
+
+The reseach revealed a few distinct categories of systems, than can be broken down into:
+- category-based: Top-level interface based on hierarchal categories, supported by search
+- feed-based: Home page or feed, that scrolls recent comments, with tag filtering. Twitter, BlueSky, and Instagram are good examples of feed-based
+
+The "modern protocols" (ActivityPub, Matrix, AT-proto, see: https://gitlab.com/bluesky-community1/decentralized-ecosystem#ecosystem-overview) are largely based on feed models. While their underlying data structures will support other models, the application user interfaces currently implemented only support feeds.
+
+This has prompted a deeper dive into category-based interaction models, and a specific list of demos to try.
+
+### Demos:
+* https://misago-project.org/
+* https://beautiful.demo.talkyard.io/latest
+* https://demo.flarum.site/
+* https://try.discourse.org/
+* https://try.nodebb.org/
+* http://www.try-phpbb.com/33x/
+
+### Misago
+https://misago-project.org/, https://github.com/rafalp/Misago
+
+Demo runs. Looks good. Initial impression: Me like.
+
+### TalkYard
+https://beautiful.demo.talkyard.io/latest, https://github.com/debiki/talkyard
+
+Demo looks good. Interesting tutorial.
+
+### Flarum
+https://demo.flarum.site/
+
+Looks good. Works well.
+
+### Discord
+https://try.discourse.org/
+
+The standard.
+
+### Apache Answer
+https://github.com/apache/answer
+
+Got it running locally. Simple. Allows CSS upload to configure look/feel. Public vs private settings.
+
+Biggest drawback: Very "question" oriented. Ask a question, get answers.
+Looks ok, but too focused.
+**Skip it.**
+
+### FlaskBB
+https://flaskbb.org/, https://github.com/flaskbb/flaskbb
+
+Last update 9 months ago.
+Build failing.
+Self-implemented forums (https://forums.flaskbb.org) failing.
+Meh design.
+**Skip it.**
+
+
 ## Initial Research
 
 This is an info dump of initial reseach into open source projects that could meet the requirements. 
